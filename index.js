@@ -83,7 +83,6 @@ program
       if (err) {
         console.log("Add task first");
       } else {
-        console.log("Hello here is data", data);
         data = JSON.parse(data);
         let i;
         for (i = 0; i < data.length; i++) {
